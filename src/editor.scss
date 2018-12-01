@@ -2,10 +2,39 @@
  * Editor Styles
  */
 
-.editor-block-list__block.is-selected {
+.editor-block-list__block {
     .is-style-spoiler-alert {
-        &::before, &::after {
-            display: none;
+        &::before {
+            // display: none;
+            background-color: transparent;
+            outline: 1px solid #000;
+            top: -14px;
+            bottom: -14px;
+            left: -14px;
+            right: -14px;
+        }
+        &::after {
+            content: 'Spoiler Alert';
+            background-color: #000;
+            border: none;
+            transform: none;
+            top: -14px;
+            left: unset;
+            right: -14px;
+            bottom: unset;
+            font-size: 11px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+            text-transform: none;
+            padding: 4px;
+        }
+    }
+
+    &.is-selected,
+    &.is-hovered {
+        .is-style-spoiler-alert {
+            &::before, &::after {
+                display: none;
+            }
         }
     }
 }
