@@ -1,0 +1,29 @@
+/**
+ * Common SCSS
+ *
+ * Variables and mixins that are used across the project.
+*/
+/**
+ * Editor Styles
+ */
+.editor-block-list__block .is-style-spoiler-alert a {
+  color: black; }
+
+.editor-block-list__block .is-style-spoiler-alert.wp-block-paragraph {
+  display: inline; }
+
+.editor-block-list__block .is-style-spoiler-alert.wp-block-image .components-resizable-box__container {
+  background-color: black; }
+
+.editor-block-list__block .is-style-spoiler-alert.wp-block-image img {
+  opacity: 0; }
+
+.editor-block-list__block.is-selected .is-style-spoiler-alert, .editor-block-list__block.is-focused .is-style-spoiler-alert {
+  background-color: inherit;
+  color: inherit; }
+  .editor-block-list__block.is-selected .is-style-spoiler-alert.editor-rich-text__tinymce a, .editor-block-list__block.is-focused .is-style-spoiler-alert.editor-rich-text__tinymce a {
+    color: #007fac; }
+  .editor-block-list__block.is-selected .is-style-spoiler-alert.wp-block-image .components-resizable-box__container, .editor-block-list__block.is-focused .is-style-spoiler-alert.wp-block-image .components-resizable-box__container {
+    background-color: inherit; }
+  .editor-block-list__block.is-selected .is-style-spoiler-alert.wp-block-image img, .editor-block-list__block.is-focused .is-style-spoiler-alert.wp-block-image img {
+    opacity: inherit; }

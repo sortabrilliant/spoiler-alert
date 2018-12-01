@@ -1,0 +1,47 @@
+/**
+ * Editor Styles
+ */
+
+.editor-block-list__block {
+
+    .is-style-spoiler-alert {
+        a {
+            color: black;
+        }
+
+        &.wp-block-paragraph {
+            display: inline;
+        }
+
+        &.wp-block-image {
+            .components-resizable-box__container {
+                background-color: black;
+            }
+            img {
+                opacity: 0;
+            }
+        }
+    }
+
+    &.is-selected,
+    &.is-focused {
+        .is-style-spoiler-alert {
+            background-color: inherit;
+            color: inherit;
+
+            &.editor-rich-text__tinymce a {
+                color: #007fac;
+            }
+
+            &.wp-block-image {
+                .components-resizable-box__container {
+                    background-color: inherit;
+                }
+                img {
+                    opacity: inherit;
+                }
+            }
+        }
+    }
+
+}

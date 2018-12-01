@@ -1,0 +1,37 @@
+/**
+ * Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.editor-block-preview__content .is-style-spoiler-alert,
+.editor-block-list__block .is-style-spoiler-alert,
+p.is-style-spoiler-alert span,
+.wp-block-image.is-style-spoiler-alert {
+    background-color: black;
+    color: black;
+
+    img {
+        opacity: 0;
+    }
+}
+
+p.is-style-spoiler-alert span * {
+    color: black;
+    text-decoration: none;
+    box-shadow: none;
+
+    &:hover {
+        color: black;
+    }
+}
+
+.is-style-spoiler-alert {
+    opacity: 0;
+}
+
+.is-style-spoiler-alert * {
+    &::selection {
+        background: black;
+    }
+}
