@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: Spoiler Alert
- * Plugin URI: https://sortabrilliant.com/spoiler-alert/
- * Description: Spoiler Alert
+ * Plugin URI: https://sortabrilliant.com/spoileralert/
+ * Description: With Spoiler Alert you can stop ruining things for people on the internet.
  * Author: sorta brilliant
  * Author URI: https://sortabrilliant.com
  * Version: 0.0.1
