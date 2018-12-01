@@ -1,1 +1,39 @@
-.is-style-spoiler-alert{position:relative}.is-style-spoiler-alert::before{content:'';position:absolute;top:0;bottom:0;left:0;right:0;background-color:#545452;z-index:1}.is-style-spoiler-alert::after{content:'Click to reveal';position:absolute;top:50%;left:50%;-webkit-transform:translateX(-50%) translateY(-50%);-ms-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);padding:0.625rem 0.9375rem;border:2px solid #fff;color:#fff;font-family:sans-serif;font-size:0.75rem;line-height:1em;text-transform:uppercase;cursor:pointer;z-index:2}.is-style-spoiler-alert.is-revealed::before,.is-style-spoiler-alert.is-revealed::after{display:none}
+/**
+ * Common SCSS
+ *
+ * Variables and mixins that are used across the project.
+*/
+/**
+ * Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+.is-style-spoiler-alert {
+  position: relative; }
+  .is-style-spoiler-alert::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    z-index: 1; }
+  .is-style-spoiler-alert::after {
+    content: 'Click to reveal';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+    padding: 0.625rem 0.9375rem;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 0.75rem;
+    line-height: 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 2; }
+  .is-style-spoiler-alert.is-revealed::before, .is-style-spoiler-alert.is-revealed::after {
+    display: none; }

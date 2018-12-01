@@ -1,1 +1,10 @@
-.editor-block-list__block.is-selected .is-style-spoiler-alert::before,.editor-block-list__block.is-selected .is-style-spoiler-alert::after{display:none}
+/**
+ * Common SCSS
+ *
+ * Variables and mixins that are used across the project.
+*/
+/**
+ * Editor Styles
+ */
+.editor-block-list__block.is-selected .is-style-spoiler-alert::before, .editor-block-list__block.is-selected .is-style-spoiler-alert::after {
+  display: none; }
