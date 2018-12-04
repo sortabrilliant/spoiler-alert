@@ -4,7 +4,9 @@
  * CSS for both Frontend+Backend.
  */
 
-.is-style-spoiler-alert {
+p.is-style-spoiler-alert,
+figure.is-style-spoiler-alert,
+div.is-style-spoiler-alert figure {
     position: relative;
 
     &::before {
@@ -34,8 +36,13 @@
         cursor: pointer;
         z-index: 2;
     }
+}
 
-    &.is-revealed {
+p.is-style-spoiler-alert,
+figure.is-style-spoiler-alert,
+div.is-style-spoiler-alert {
+    &.is-revealed,
+    &.is-revealed figure {
         &::before, &::after {
             display: none;
         }
