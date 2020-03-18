@@ -1,6 +1,6 @@
 === Spoiler Alert ===
 Contributors: sortabrilliant, jrtashjian
-Tags: dashboard
+Tags: block, spoiler
 Requires at least: 5.0
 Tested up to: 5.4
 Stable tag: 1.0.3
